@@ -1,0 +1,25 @@
+.background    { background: #FFFFFF;
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.water          { background: url(Image/5.png); background-size: 48px 48px;}
+.wall          { background: url(Image/6.jpg); background-size: 48px 48px;  }
+
+.actor  { position: absolute;  }
+.coin   { background-image: url(Image/2.gif); background-size: 64px 48px; background-repeat: no-repeat;background-position: center;}
+.player { background: url(Image/10.gif); background-size: 30px 30px; background-position: center;
+}
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: url(Image/8.png); background-size: 15px 40px;
+}
+.won .player {
+  box-shadow: -4px -7px 8px gold, 4px -7px 8px gold;
+}
